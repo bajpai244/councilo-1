@@ -1,0 +1,196 @@
+
+/*Now we are going to write for Desktops */
+
+body{   
+display: grid;
+grid-template-rows: repeat(8,1fr);    
+
+}
+#d1{ 
+grid-row: 1/2;
+text-align: center;
+color: green;
+font-size: 130%;
+font-family: sans-serif;
+display: grid;
+grid-template-rows: repeat(3,1fr);    
+
+}
+
+p{  
+
+grid-row: 2/3;
+color: blue;
+font-size: 180%;
+}
+#d3{ 
+grid-row: 5/6;
+display: grid;
+grid-template-columns: repeat(3,1fr);    
+grid-template-rows: repeat(3,1fr);    
+
+}
+input{   
+grid-column:2/3 ;
+width: 30%;
+transform: scale(1.5,2);
+position: relative;
+left: 12%;
+top: -98%;    
+}
+
+input:hover{ 
+color: red;
+cursor: pointer;
+}
+
+/*Now we are going to make websit for mobile phone */
+@media screen and (max-width: 950px){  
+
+body{   
+display: grid;
+grid-template-rows: repeat(8,1fr);    
+
+}
+#d1{ 
+grid-row: 1/2;
+text-align: center;
+color: green;
+font-size: 130%;
+font-family: sans-serif;
+display: grid;
+grid-template-rows: repeat(3,1fr);    
+
+}
+
+p{  
+
+grid-row: 2/3;
+color: blue;
+font-size: 180%;
+}
+#d3{ 
+grid-row: 5/6;
+display: grid;
+grid-template-columns: repeat(3,1fr);    
+grid-template-rows: repeat(3,1fr);    
+
+}
+input{   
+grid-column:2/3 ;
+width: 40%;
+transform: scale(1.5,2);
+position: relative;
+left: 12%;
+top: -98%;    
+color: green;
+}
+
+input:hover{ 
+color: red;
+cursor: pointer;
+}
+
+
+}
+
+
+/*Now we are going to make website for mobile phone with width 740px less screen size */
+@media screen and (max-width: 740px){  
+
+body{   
+display: grid;
+grid-template-rows: repeat(8,1fr);    
+
+}
+#d1{ 
+grid-row: 1/2;
+text-align: center;
+color: green;
+font-size: 130%;
+font-family: sans-serif;
+display: grid;
+grid-template-rows: repeat(3,1fr);    
+
+}
+
+p{  
+
+grid-row: 2/3;
+color: blue;
+font-size: 180%;
+}
+#d3{ 
+grid-row: 5/6;
+display: grid;
+grid-template-columns: repeat(3,1fr);    
+grid-template-rows: repeat(3,1fr);    
+
+}
+input{   
+grid-column:2/3 ;
+width: 50%;
+transform: scale(1.5,2);
+position: relative;
+left: 12%;
+top: -98%;    
+color: green;
+}
+
+input:hover{ 
+color: red;
+cursor: pointer;
+}
+
+
+}
+
+/*Now we are going to make website for mobile phone with width 740px less screen size */
+@media screen and (max-width: 586px){             
+
+body{   
+display: grid;
+grid-template-rows: repeat(8,1fr);    
+
+}
+#d1{ 
+grid-row: 1/2;
+text-align: center;
+color: green;
+font-size: 100%;
+font-family: sans-serif;
+display: grid;
+grid-template-rows: repeat(3,1fr);    
+}
+
+p{  
+
+grid-row: 2/3;
+color: blue;
+font-size: 80%;
+
+}
+input{   
+grid-column:2/3 ;
+width: 80%;
+transform: scale(1.5,2);
+position: relative;
+left: 5%;
+top: -98%;    
+color: green;
+}
+
+input:hover{ 
+color: red;
+cursor: pointer;
+} 
+}
+@media screen and (max-width:325px){  
+input{  
+    
+width: 100%;
+left: -2%;    
+    
+    }
+
+}

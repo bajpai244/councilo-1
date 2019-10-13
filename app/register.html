@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+</head>
+
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<body>
+    <div id="container-register">
+        <div id="title">
+            <i class="material-icons lock">lock</i> Register
+        </div>
+
+        <form>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">email</i>
+                </div>
+                <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color: #DDD">I accept Terms of Service</span>
+            </div>
+
+            <input type="submit" value="Register" onclick="clicke()" />
+        </form>
+
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Do you already have an account?
+            <a href="#"><button id="register-link" id="register"  onclick="login()">Log In here</button></a>
+        </div>
+    </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDd26Nvxb-tYa_JViuB-lN6QW5MHopuNMM",
+    authDomain: "wechat-1121e.firebaseapp.com",
+    databaseURL: "https://wechat-1121e.firebaseio.com",
+    projectId: "wechat-1121e",
+    storageBucket: "wechat-1121e.appspot.com",
+    messagingSenderId: "157329118888",
+    appId: "1:157329118888:web:f45bbb23bdbf86394a949d",
+    measurementId: "G-71S4BW32R1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ firebase.analytics();
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+  db.settings({timestampsInSnapshots:true});
+  </script>
+
+<script src="./js/register.js" >
+
+
+
+</script>
+
+
+
+</html>
+
+
+
+

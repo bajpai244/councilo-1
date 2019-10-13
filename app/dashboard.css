@@ -1,0 +1,62 @@
+body{
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+img{
+    
+position: absolute;
+width: 220px;
+height: 200px;
+left: 650px;
+top: 131px;
+
+}
+
+#name{
+    position: absolute;
+    width: 562px;
+    height: 146px;
+    left: 35%;
+    top:  50%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;;
+}
+#handle{
+    position: absolute;
+    width: 562px;
+    height: 146px;
+    left: 35%;
+    top:  58%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 42px;
+    color: white;
+}
+button{
+    position: absolute;
+    width:121.78px ;
+    height:45px ;
+    border-radius: 50px;
+    background:#E8AE0E;
+    right: 40%;
+ }
+#quiz{
+    top:70%;
+    }
+#mentor{
+    top: 80%;    
+}
+#logout{
+    top: 30%;
+    left: 65%;
+}

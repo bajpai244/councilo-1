@@ -1,0 +1,62 @@
+input[type=submit] {
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    padding: 10px;
+}
+
+body{
+
+background-color: #e3e3e3;
+
+}
+
+h1{
+
+font-size: 70px;
+font-family: sans-serif;
+text-align: center;
+text-shadow: 2px 3px 0px green;
+color: red;
+
+
+
+}
+p{
+	font-size: 20px;
+
+}
+li{
+
+font-size: 15px;
+position: relative;
+top: 40px;
+}
+
+label{
+
+font-size: 20px;
+color: blue;
+
+}
+#l1{
+
+position: relative; 	
+top: 60px;
+}
+#l2{
+
+position: relative;
+top: 160px;
+
+}
+#s1{
+position: relative;
+top: 50px;
+right: 580px;
+}
+#s2{
+	position: relative;
+	top: 50px;
+   right: 500px;
+}
