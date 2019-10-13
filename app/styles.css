@@ -1,0 +1,59 @@
+h1{ position: relative; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 31px;
+    /* or 49% */
+    
+    
+    color: #8D43D7;
+  
+    top: 20%;
+    left: 40%;
+}
+header
+{   position: relative;
+    width: 40%;
+    left: 60%;
+    bottom: 10%;
+    text-align: right;
+}
+a{
+    position: relative;
+    padding: 2%;
+    
+}
+
+#search{
+    height: 25% ;
+    margin: 0px;
+}
+
+#para{
+    position: relative;
+    width:40%;
+    left:60%;
+    bottom: 65%;
+   
+}
+p{
+    word-spacing: 20%;
+}
+
+h2{
+     position: absolute;
+    display: inline;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #D3C221;
+}
+svg{
+    position: relative;
+    left:17% ;
+    top: 15%;
+}

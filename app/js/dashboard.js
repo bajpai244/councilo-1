@@ -5,6 +5,10 @@ function quiz(){
       window.open('quizer/quiz/quiz1.html');
 }
 
+function mentor(){ 
+   window.open('./mentor.html','_self');   
+}
+/*
 function logout(){
       firebase.auth().signOut().then(function() {
             // Sign-out successful.
@@ -14,3 +18,8 @@ function logout(){
         console.log(error);
       });
       }
+
+
+      function mentor(){ 
+      window.open('mentor.html'.'_self');
+      }*/

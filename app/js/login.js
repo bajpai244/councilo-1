@@ -2,9 +2,10 @@ firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
    
   //sending email to the person
-      localStorage.setItem("email",user.email );
-      window.open("./dashboard.html","_self"); 
+  localStorage.setItem("email",user.email );
         
+  window.open("./dashboard.html","_self"); 
+       
   } 
   else {
      
