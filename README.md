@@ -1,4 +1,4 @@
-# COUNCILO - AN ONLINE COUNCELLING PORTAL
+# COUNCILO - AN ONLINE COUNSELLING PORTAL
 ## A project by TEAM IMMORTALS
 **COUNCILO** is an online portal where students and mentors can interact one-to-one, so that mentors could provide them better career guidance and proper paths to choose from. 
 The main problem in today's education system is the lack of career guidance. Students don't get to know and explore various career options and hence go with the flow. This leads to loss in interest in that particular stream after a given time interval which further results in anxiety and depression in youngsters and sometimes it leads to suicides as well.
